@@ -4,7 +4,7 @@ using namespace std ;
 int main(){
     char s1[7];
     
-    char* s2;
+    char *s2;
    // melakukan pengisian nilai terhadap variabel s1 dan s2 
    s1="contoh";
    s2="salin string";
