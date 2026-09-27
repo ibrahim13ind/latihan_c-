@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cout<<" a : ";
+    cin>>a;
+    for (int baris = 1; baris <= a; baris++) {
+        for (int kolom = 1; kolom <= a; kolom++) {
+            cout << baris * kolom << " ";
+        }
+        cout << "\n";
+    }
+}
